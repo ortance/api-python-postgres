@@ -1,0 +1,23 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   app.py
+#	new file:   config.py
+#	new file:   functions.py
+#	new file:   models.py
+#
+# Untracked files:
+#	GeoAlchemy2-0.4.0/
+#	Lib/
+#	Scripts/
+#	__pycache__/
+#	pip-selfcheck.json
+#	pyvenv.cfg
+#	templates/
+#
+

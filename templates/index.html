@@ -1,0 +1,18 @@
+<!-- c'est dans cette page que se fera la gestion de l'affichage, des titres => template de l'appli -->
+<html>
+  <head>
+<!-- grâce au jinja2 de render_template, on peut rajouter des conditions dans le html-->
+    <title>Bienvenue</title>
+  </head>
+  <body>
+    {% extends "base.html" %}n <!-- l'index herite du doc base.html -->
+    {% block content %}
+      <h1>{{data_all.values}}!</h1>
+      <!-- {% for post in posts %}
+      <div>
+        <p> {{ post.author.nickname }}, {{ post.author.age }}, says : <b> {{ post.body }} </b> </p>
+      </div>
+      {% endfor %} -->
+    {% endblock %}
+  </body>
+</html>
